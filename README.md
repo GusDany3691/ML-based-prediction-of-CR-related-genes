@@ -9,7 +9,6 @@ The folder 'Data' contains other 5 folders:
  * 'CR-probabilites'     : Contains two folders: 'Strongest models' has features importances for {PathDIP, CAT} and {GO terms, BRF}. 'NestedCV_outerfolds' contains the outer fold data for each of the ML algorithms in GO terms and PathDIP pathways, the two most predictive datasets.
  * 'External'            : Contains the data from external databases that was used to perform this work, one folder per source: 'GeneFriends', 'Gtex', 'HAGR', 'OMA', 'PathDIP', 'PPI'.
 
-The 'Datasets' folder contains csv files of each one of the datasets used in this work.
 
 The 'Code' folder is split  in three internal folders: 
   * 'Datasets construction' which contains R files each of which is focused on retrieving different types of features and constructing the datasets.
